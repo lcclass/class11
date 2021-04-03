@@ -1,3 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>欢迎来到Class11！</title>
+<bgsound src="sound/Luv%20Letter.wav" loop="-1">
+<script language="JavaScript" src="http://free.3v.do/count.asp?id=lcclass11"></script>
+<body bgcolor="#CCCCCC">
+
+<p align="center"><b><font size="7" color="#FF0000" face="黑体">请验证您的身份！</font></b></p>
+<p align="center">
+<img border="0" src="images/Class11.jpg" width="326" height="151"></p>
+<p align="center">
+<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="918" height="169">
+	<param name="movie" value="swf/class.swf">
+	<param name="quality" value="High">
+	<param name="wmode" value="transparent">
+	<embed src="swf/class.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj1" width="918" height="169" quality="High" wmode="transparent"></object>
+</p>
+<p align="center"><font size="5" color="#008080">请您输入密码<br>
+密码提示：（密码为4位数字）<br>
+&nbsp; 1.我们当前的教室在<font face="宋体">__楼。<br>
+2.我们学校有__个校区。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.我们所在的校区有__幢教学楼。</font></font><font face="宋体" size="5" color="#008080"><br>
+</font><font face="宋体" size="5" color="#008080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+4.我们所在的教学楼一共有__层。</font></p>
+<p align="center"><font size="7">
+<input type="password" id="password" name="password" style="font-size: 24pt" size="26"/>
+<br>
+<input name="a" type="submit" value="登 录"  onclick="checkpassword();" style="font-size: 18pt"/>
+<script>
+        function checkpassword(){
+        var pwd="4325";
+                var inpwd=document.getElementById("password").value;
+                        if(pwd == inpwd){  
+                                   window.location.href="homepage.htm";
+    }
+}
+</script></font></p>
+<p align="center">
+<b><font size="5">Copyright &copy;2015-2018 Class11.</font></b></p>
+
+<hr noshade color="#C0C0C0">
+<p align="center"><u><b><font size="4" color="#008000">温馨提示：以下为网站自带广告</font></b></u></p>
+
+</body>
+
+</html>
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lcclass11/class11/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
