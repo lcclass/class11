@@ -2,10 +2,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title>欢迎来到Class11！</title>
- <body>
 			<audio autoplay="autoplay">
 					<source src="sound/Luv Letter.wav" type="audio/mpeg"/>
-			</audio>
+			</audio>	
+<bgsound src="sound/Luv Letter.wav" loop="-1">
 <body bgcolor="#CCCCCC">
 <p align="center"><strong><font size="7" color="#FF0000" face="黑体">请验证您的身份！</font></strong></p>
 <p align="center">
@@ -16,6 +16,8 @@
     2.我们学校有__个校区。<br>
   &nbsp; &nbsp;3.我们所在的校区有__幢教学楼。</font></font><font face="宋体" size="5" color="#008080"><br>
 </font><font face="宋体" size="5" color="#008080"> &nbsp; &nbsp;4.我们所在的教学楼一共有__层。</font></p>
+<SCRIPT language=JavaScript> function password() { var testV = 1; var pass1 = prompt('请输入密码:密码提示：（密码为4位数字）\n1.我们当前的教室在__楼。\n2.我们学校有__个校区。\n3.我们所在的校区有__幢教学楼。\n4.我们所在的教学楼一共有__层。',''); while (testV < 3) { if (!pass1) history.go(-1); if (pass1 == "4325") { alert('密码正确!'); break; } testV+=-1; var pass1 = prompt('密码错误!请重新输入:'); } if (pass1!="password" & testV ==3) history.go(-1); return " "; } document.write(password()); </SCRIPT><script>
+ 
 <p align="center"><font size="7">&nbsp;
   <input type="password" id="password" name="password" style="font-size: 24pt" size="26">
   <br>
@@ -25,7 +27,8 @@
         var pwd="4325";
                 var inpwd=document.getElementById("password").value;
                         if(pwd == inpwd){  
-                                   window.location.href="homepage.htm";
+                                    window.open("homepage.htm");
+							//window.location.href="homepage.htm";
     }
 }
     </script>
@@ -38,3 +41,4 @@
 </body>
 
 </html>
+	
